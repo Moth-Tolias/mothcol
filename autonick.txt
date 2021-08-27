@@ -1,0 +1,300 @@
+# autonick config file
+# every line in this file that is not empty and does
+# not start with "#" will be used as a nickname by the
+# autonick script.
+
+# nicknames can be multiple words
+
+# sonic
+Sonic
+Tails
+Miles
+Amy Rose
+Sally Acorn
+Nicole
+Bunnie Rabbot
+Rotor
+Tikal
+Blaze
+Vector
+Knuckles
+Rogue
+Shadow
+Silver
+Omega
+
+# spyro
+Spyro
+Elora
+Bianca
+Hunter
+
+# animals
+Mouse
+Otter
+Snake
+Owl
+Bat
+Fox
+Mole
+Cat
+Badger
+Squirrel
+Kit
+
+# birds
+Wren
+Jay
+Crow
+Raven
+Sparrow
+
+# colours
+Flash
+Scarlet
+Red
+Gray
+Blue
+Shadow
+Indigo
+Silver
+
+# seasons
+Spring
+Summer
+Autumn
+Winter
+
+# months
+April
+May
+June
+July
+August
+
+# cardinals
+North
+South
+East
+West
+
+# biblical
+Eve
+Lilith
+
+# parts
+Bones
+Nails
+Jaws
+Nerve
+
+# nature
+Blaze
+River
+Snow
+Rain
+Reed
+Lake
+Briar
+Brook
+Sky
+Storm
+Clay
+Ember
+Marsh
+Star
+Amber
+
+# crow cillers
+Emma
+Cortney
+Doris
+Elaine
+Marcus
+Colleen
+Lisa
+Jamie
+Chel
+Harlyn
+Aria
+Embry
+Ambrosia
+Coby
+Vince
+Jill
+Moya
+Varg
+Paris
+
+# friends <3
+Alex
+Mia
+Astra
+Roxy
+Sam
+Mint
+Nikon
+Elissa
+Mel
+Nova
+Sprite
+Audrey
+Amanda
+Avery
+Tenna
+
+Felix
+
+# custom nato
+Alpha
+Gamma
+Echo
+Delta
+Recall
+Vivid
+Tango
+King
+Gadget
+Vox
+
+#flowers
+Lilly
+Lavender
+Rose
+Violet
+Heather
+Iris
+
+# traditional
+Mary
+Clara
+Anne
+Ruth
+Sarah
+Charlotte
+Matilda
+
+# pkmn
+Ash
+Misty
+Brock
+
+# numbers
+Ace
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+X
+
+# space
+Mercury
+Mars
+Venus
+Terra
+Luna
+Ceres
+Juno
+Flora
+Vesta
+Jupiter
+Io
+Ganymede
+Saturn
+Neptune
+Pluto
+Eris
+
+# chess
+Rook
+Knight
+
+# trees
+Ash
+Oak
+Rowan
+Aspen
+Alder
+Apple
+Beech
+Birch
+Box
+Cedar
+Cypress
+Elder
+Elm
+Larch
+Fir
+Juniper
+Lime
+Pine
+Poplar
+Spruce
+Yew
+
+
+# other
+Ink
+Echo
+Mint
+Mel
+X
+Sam
+Tango
+Gadget
+Brum
+Wall
+Beam
+Ud
+Tal
+Ren
+Aki
+Jun
+Kei
+Lynn
+Lex
+Cid
+Miles
+Rotor
+Mesa
+Verse
+Bug Report
+Korg
+
+# bridge
+Amber
+Neon
+Lucy
+
+# fursonas
+Flora
+Dragon
+Alice
+Giygue
+
+# hhgtg
+Arthur
+Ford
+Random
+
+# deltarune
+Susie
+Noel
+Toriel
+Ralsei
+
+# from the "300 list"
+Ezra
+Kai
+Ray
+Remi
+Roan
+Robin
+Tori
+Val
+Wisdom
+Zephyr
