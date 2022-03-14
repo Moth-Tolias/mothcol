@@ -291,4 +291,4 @@ gui/load-screen enable
 ##############################
 
 # Run commands in this file when a world loads
-sc-script add SC_WORLD_LOADED onLoad.init
+# sc-script add SC_WORLD_LOADED onLoad.init
