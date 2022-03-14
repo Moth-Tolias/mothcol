@@ -105,6 +105,9 @@ Marsh
 Star
 Amber
 
+# rain world
+Five Pebbles
+
 # crow cillers
 Emma
 Cortney
@@ -210,8 +213,10 @@ Pluto
 Eris
 
 # chess
+Chess
 Rook
 Knight
+Bishop
 
 # trees
 Ash
@@ -235,7 +240,6 @@ Pine
 Poplar
 Spruce
 Yew
-
 
 # other
 Ink
@@ -262,7 +266,6 @@ Miles
 Rotor
 Mesa
 Verse
-Bug Report
 Korg
 
 # bridge
