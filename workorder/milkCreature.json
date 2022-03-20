@@ -1,0 +1,9 @@
+{
+	"job": "MilkCreature",
+	"item_conditions": [{
+		"condition": "AtLeast",
+		"value": 2,
+		"flags": ["empty"],
+		"item_type": "BUCKET"
+	}]
+}
