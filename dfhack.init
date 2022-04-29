@@ -9,25 +9,8 @@ keybinding add Alt-F1 hotkeys
 # toggle the display of water level as 1-7 tiles
 keybinding add Ctrl-W twaterlvl
 
-# with cursor:
-
-# designate the whole vein for digging
-#keybinding add Ctrl-V digv
-#keybinding add Ctrl-Shift-V "digv x"
-
-# clean the selected tile of blood etc
-#keybinding add Ctrl-C spotclean
-
-# destroy items designated for dump in the selected tile
-#keybinding add Ctrl-Shift-K autodump-destroy-here
-
 # set the zone or cage under the cursor as the default
 #keybinding add Alt-Shift-I@dwarfmode/Zones "zone set"
-
-# with an item selected:
-
-# destroy the selected item
-#keybinding add Ctrl-K autodump-destroy-item
 
 # scripts:
 
@@ -68,8 +51,6 @@ keybinding add Alt-I@dwarfmode/ViewUnits|unitlist gui/unit-info-viewer
 # Generic adv mode bindings  #
 ##############################
 
-#keybinding add Ctrl-B@dungeonmode adv-bodyswap
-#keybinding add Ctrl-Shift-B@dungeonmode "adv-bodyswap force"
 #keybinding add Shift-O@dungeonmode gui/companion-order
 #keybinding add Ctrl-T@dungeonmode gui/advfort
 keybinding add Ctrl-A@dungeonmode/ConversationSpeak adv-rumors
@@ -124,9 +105,6 @@ keybinding add Ctrl-M@dwarfmode/QueryBuilding/Some gui/mechanisms
 
 # browse rooms of same owner
 keybinding add Alt-R@dwarfmode/QueryBuilding/Some gui/room-list
-
-# interface for the liquids plugin - spawn water/magma/obsidian
-#keybinding add Alt-L@dwarfmode/LookAround gui/liquids
 
 # machine power sensitive pressure plate construction
 keybinding add Ctrl-Shift-M@dwarfmode/Build/Position/Trap gui/power-meter
