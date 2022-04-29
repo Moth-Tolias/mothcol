@@ -133,9 +133,6 @@ keybinding add Alt-A@dwarfmode/QueryBuilding/Some/Workshop/Job gui/workshop-job
 # autobutcher front-end
 keybinding add Shift-B@pet/List/Unit "gui/autobutcher"
 
-# assign weapon racks to squads so that they can be used
-keybinding add P@dwarfmode/QueryBuilding/Some/Weaponrack gui/assign-rack
-
 # view pathable tiles from active cursor
 keybinding add Alt-Shift-P@dwarfmode/LookAround gui/pathable
 
@@ -163,9 +160,6 @@ tweak fast-trade
 tweak military-stable-assign
 # in same list, color units already assigned to squads in brown & green
 tweak military-color-assigned
-
-# remove inverse dependency of squad training speed on unit list size and use more sparring
-# tweak military-training
 
 # make crafted cloth items wear out with time like in old versions (bug 6003)
 tweak craft-age-wear
