@@ -2,12 +2,12 @@ repeat -name warn-starving -time 10 -timeUnits days -command [ warn-starving ]
 repeat -name autonick -time 3 -timeUnits months -command [ autonick ]
 
 repeat -name autoShearCreature -time 14 -timeUnits days -command [ workorder ShearCreature ]
-repeat -name autoMilkCreature -time 14 -timeUnits days -command [ workorder --file milkCreature.json ]
+repeat -name autoMilkCreature -time 14 -timeUnits days -command [ workorder --file milkCreature ]
 
 on-new-fortress ban-cooking booze; ban-cooking tallow; ban-cooking brew; ban-cooking mill; ban-cooking thread;
 
 on-new-fortress seedwatch all 30;
-seedwatch start;
+seedwatch start
 
 on-new-fortress autobutcher target 5 5 5 2 new; autobutcher autowatch;
 on-new-fortress autobutcher unwatch DOG CAT RABBIT;
