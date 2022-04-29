@@ -182,11 +182,15 @@ tweak hotkey-clear
 # Allows lowercase letters in embark profile names, and allows exiting the name prompt without saving
 tweak embark-profile-name
 
+# Reduce performance impact of temperature changes
+tweak fast-heat 100
+
 # Misc. UI tweaks
 tweak block-labors              # Prevents labors that can't be used from being toggled
 tweak burrow-name-cancel
 tweak cage-butcher
 tweak civ-view-agreement
+tweak do-job-now
 tweak eggs-fertile
 tweak fps-min
 tweak hide-priority
