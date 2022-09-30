@@ -17,5 +17,6 @@ seedwatch start
 
 on-new-fortress autobutcher target 5 5 5 2 new; autobutcher autowatch;
 on-new-fortress autobutcher unwatch DOG CAT RABBIT;
-on-new-fortress autobutcher start;
+on-new-fortress enable autobutcher;
 
+enable autonestbox
