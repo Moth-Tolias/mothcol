@@ -1,14 +1,6 @@
-# This file runs when DFHack is initialized, when Dwarf Fortress is first
-# started, before any world or save data is loaded.
-#
-# You can extend or override DFHack's default configuration by adding commands
-# to this file.
+# susan's super sweet dfhack init !! =D
 
-## Hotkeys ##
-# note: adventure mode hotkeys are left as default.
-
-# disable prompt [obsoleted by launcher]
-keybinding clear Ctrl-Shift-P
+## Keybinds ##
 
 # disable vein designation [obsoleted by builtin]
 keybinding clear Ctrl-V@dwarfmode
@@ -16,40 +8,35 @@ keybinding clear Ctrl-Shift-V@dwarfmode
 
 # disable item annihilation [cheaty]
 keybinding clear Ctrl-K@dwarfmode
-keybinding clear Ctrl-Shift-K@dwarfmode
 
-# disable "zone set" [not entirely sure what this one does]
-keybinding clear Alt-Shift-I@dwarfmode/Zones
+# disable "zone set" [not entirely sure what this one does] [disabled: unavailable]
+#keybinding clear Alt-Shift-I@dwarfmode/Zones
 
-# disable forum export [too rare to be worth a hotkey]
-keybinding clear Ctrl-Shift-F@textviewer
+# disable forum export [too rare to be worth a hotkey] [disabled: unavailable]
+#keybinding clear Ctrl-Shift-F@textviewer
 
-# disable liquids [cheaty]
-keybinding clear Alt-L@dwarfmode/LookAround
+# disable liquids [cheaty] [disabled: unavailable]
+#keybinding clear Alt-L@dwarfmode/LookAround
 
-# disable workflow [obsoleted by builtin manager]
-keybinding clear Alt-W@dwarfmode/QueryBuilding/Some/Workshop/Job
-keybinding clear Alt-W@overallstatus
-keybinding clear Alt-W@dfhack/lua/status_overlay
+# disable workflow [obsoleted by builtin manager] [disabled]
+#keybinding clear Alt-W@dwarfmode/QueryBuilding/Some/Workshop/Job
+#keybinding clear Alt-W@overallstatus
+#keybinding clear Alt-W@dfhack/lua/status_overlay
 
-# disable renaming [obsoleted by builtin]
-keybinding clear Ctrl-Shift-N@dwarfmode|unit|unitlist|joblist|dungeon_monsterstatus|layer_unit_relationship|item|workshop_profile|layer_noblelist|locations|pets|layer_overall_health|textviewer|reportlist|announcelist|layer_military|layer_unit_health|customize_unit|buildinglist
-keybinding clear Ctrl-Shift-T@dwarfmode|unit|unitlist|joblist|dungeon_monsterstatus|layer_unit_relationship|item|workshop_profile|layer_noblelist|locations|pets|layer_overall_health|textviewer|reportlist|announcelist|layer_military|layer_unit_health|customize_unit
+# disable renaming [obsoleted by builtin] [disabled: unavailable]
+#keybinding clear Ctrl-Shift-N@dwarfmode|unit|unitlist|joblist|dungeon_monsterstatus|layer_unit_relationship|item|workshop_profile|layer_noblelist|locations|pets|layer_overall_health|textviewer|reportlist|announcelist|layer_military|layer_unit_health|customize_unit|buildinglist
+#keybinding clear Ctrl-Shift-T@dwarfmode|unit|unitlist|joblist|dungeon_monsterstatus|layer_unit_relationship|item|workshop_profile|layer_noblelist|locations|pets|layer_overall_health|textviewer|reportlist|announcelist|layer_military|layer_unit_health|customize_unit
 
 ## Tools ##
 
-# improved kitchen ui
-enable gui/kitchen-info
+# improved kitchen ui [disabled: unavailable]
+#enable gui/kitchen-info
 
-# stop adamantine clothing from wearing out (bug 6481)
-tweak adamantine-cloth-wear
+# stop adamantine clothing from wearing out (bug 6481) [disabled: unavailable]
+#tweak adamantine-cloth-wear
 
-#
-tweak max-wheelbarrow disable
+# no mouse [disabled: when will our mouseless interface return from the war 😩]
+#disable mousequery
 
-# no mouse
-disable mousequery
-embark-tools disable mouse
-
-# note: turn this back on if using stonesense ect
-modtools/extra-gamelog disable
+# note: turn this back on if using stonesense ect [disabled: unavailable]
+#modtools/extra-gamelog disable
