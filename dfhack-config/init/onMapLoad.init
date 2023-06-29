@@ -6,18 +6,20 @@ repeat -name autoMilkCreature -time 14 -timeUnits days -command [ workorder --fi
 
 #repeat -name cleanowned -time 1 -timeUnits years -command [ cleanowned scattered X ]
 
-on-new-fortress ban-cooking booze; ban-cooking tallow; ban-cooking brew; ban-cooking mill; ban-cooking thread;
+on-new-fortress ban-cooking all
 
 once-per-save fix/blood-del
 
-on-new-fortress buildingplan set boulders false; buildingplan set logs false
+buildingplan set boulders false
+buildingplan set logs false
 
-on-new-fortress seedwatch all 30;
-seedwatch start
+on-new-fortress seedwatch all 30
+on-new-fortress enable seedwatch
 
-on-new-fortress autobutcher target 5 5 5 2 new; autobutcher autowatch;
-on-new-fortress autobutcher unwatch DOG CAT RABBIT;
-on-new-fortress enable autobutcher;
+on-new-fortress autobutcher target 5 5 5 2 new
+on-new-fortress autobutcher autowatch
+on-new-fortress autobutcher unwatch DOG CAT RABBIT
+on-new-fortress enable autobutcher
 
 enable autonestbox
 #enable autoslab
