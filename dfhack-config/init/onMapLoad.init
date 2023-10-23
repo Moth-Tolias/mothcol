@@ -22,7 +22,7 @@ on-new-fortress enable autobutcher
 on-new-fortress enable autofarm
 #on-new-fortress enable autoslab
 #on-new-fortress enable autofish
-#on-new-fortress enable tailor
+on-new-fortress enable tailor
 #repeat -name cleanowned -time 1 -timeUnits years -command [ cleanowned scattered X ]
 
 # job fixes
